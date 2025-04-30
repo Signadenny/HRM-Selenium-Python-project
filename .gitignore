@@ -1,0 +1,32 @@
+# PyCharm project files
+.idea/
+
+# Virtual environments
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.py[cod]
+
+# Logs, reports, artifacts
+logs/
+reports/
+HRMreports/report.html
+screenshots/
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Environment configs
+.env
+*.yaml~
+

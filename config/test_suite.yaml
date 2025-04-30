@@ -1,0 +1,11 @@
+suites:
+  smoke:
+    markers: "smoke"
+  regression:
+    markers: "regression"
+  sanity:
+    markers: "sanity"
+  critical:
+    markers: "critical or sanity"
+  full:
+    markers: "not skip"
