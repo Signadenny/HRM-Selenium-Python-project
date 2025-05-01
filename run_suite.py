@@ -1,7 +1,8 @@
 import subprocess
 import yaml
 import sys
-
+import os
+os.makedirs("reports", exist_ok=True)
 def run_test_suite(suite_name):
     with open("config/test_suite.yaml") as f:
         config = yaml.safe_load(f)
