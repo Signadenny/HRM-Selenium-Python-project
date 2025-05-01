@@ -4,3 +4,4 @@ pytest-xdist
 selenium
 webdriver-manager
 pyyaml
+pytest-rerunfailures
